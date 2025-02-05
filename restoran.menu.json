@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "67a3105c75288537bb458037"
+  },
+  "name": "Kola",
+  "price": 11000,
+  "category": "ichimlik",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb458038"
+  },
+  "name": "Pitsa",
+  "price": 25000,
+  "category": "taom",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb458039"
+  },
+  "name": "Cheesecake",
+  "price": 12000,
+  "category": "desert",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb45803a"
+  },
+  "name": "Pepsi",
+  "price": 11000,
+  "category": "ichimlik",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb45803b"
+  },
+  "name": "Burger",
+  "price": 12000,
+  "category": "taom",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb45803c"
+  },
+  "name": "Pirog",
+  "price": 10000,
+  "category": "desert",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb45803d"
+  },
+  "name": "Fanta",
+  "price": 11000,
+  "category": "ichimlik",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb45803e"
+  },
+  "name": "Shashlik",
+  "price": 15000,
+  "category": "taom",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb45803f"
+  },
+  "name": "Krem-burger",
+  "price": 15000,
+  "category": "desert",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3105c75288537bb458040"
+  },
+  "name": "Limonad",
+  "price": 12000,
+  "category": "ichimlik",
+  "available": true,
+  "createdAt": {
+    "$date": "2025-02-05T07:16:44.308Z"
+  }
+}]
