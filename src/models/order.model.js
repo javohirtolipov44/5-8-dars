@@ -11,16 +11,22 @@ const orderSchema = new mongoose.Schema(
     totalAmount: { type: Number, required: true },
     waiter: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: "Staff",
+      ref: "staff",
       required: true,
     },
     createdAt: { type: Date, default: Date.now },
+    menuItem: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "menu",
+      required: true,
+    }, // menuItem va quantity maydonlarini ozim qoshdim
+    quantity: { type: Number, required: true },
   },
   {
     versionKey: false,
   }
 );
 
-const orderModel = mongoose.model("menu", orderSchema);
+const orderModel = mongoose.model("order", orderSchema);
 
 export default orderModel;

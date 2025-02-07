@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "16c270a5-7568-42c6-8d9b-f313ff358066",
+		"name": "8-dars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "14374179"
+	},
+	"item": [
+		{
+			"name": "daily-sales",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/api/orders/daily-sales"
+			},
+			"response": []
+		},
+		{
+			"name": "waiter_performancest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/api/orders/waiter-performance"
+			},
+			"response": []
+		},
+		{
+			"name": "top_dishes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/api/orders/top-dishes"
+			},
+			"response": []
+		},
+		{
+			"name": "get_tableId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:4000/api/orders/table/2"
+			},
+			"response": []
+		},
+		{
+			"name": "add_order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"table\" : 2,\r\n    \"status\" : \"new\",\r\n    \"totalAmount\" : 60000,\r\n    \"waiter\" : \"67a3105c75288537bb458038\",\r\n    \"menuItem\" : \"67a3105c75288537bb458037\",\r\n    \"quantity\" : 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:4000/api/order"
+			},
+			"response": []
+		}
+	]
+}

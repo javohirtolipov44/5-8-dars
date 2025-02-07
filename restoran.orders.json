@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "67a587820b63aa035c0ef362"
+  },
+  "table": 1,
+  "status": "new",
+  "totalAmount": 40000,
+  "waiter": {
+    "$oid": "67a3110975288537bb458041"
+  },
+  "menuItem": {
+    "$oid": "67a3105c75288537bb458038"
+  },
+  "quantity": 2,
+  "createdAt": {
+    "$date": "2025-02-07T04:09:38.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a587f756952f4ec4e9579d"
+  },
+  "table": 1,
+  "status": "ready",
+  "totalAmount": 2000,
+  "waiter": {
+    "$oid": "67a3110975288537bb458041"
+  },
+  "menuItem": {
+    "$oid": "67a3105c75288537bb458037"
+  },
+  "quantity": 1,
+  "createdAt": {
+    "$date": "2025-02-07T04:11:35.548Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a5882d56952f4ec4e9579f"
+  },
+  "table": 2,
+  "status": "completed",
+  "totalAmount": 4000,
+  "waiter": {
+    "$oid": "67a3110975288537bb458041"
+  },
+  "menuItem": {
+    "$oid": "67a3105c75288537bb458037"
+  },
+  "quantity": 2,
+  "createdAt": {
+    "$date": "2025-02-07T04:12:29.838Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a5884356952f4ec4e957a1"
+  },
+  "table": 2,
+  "status": "cooking",
+  "totalAmount": 60000,
+  "waiter": {
+    "$oid": "67a3110975288537bb458041"
+  },
+  "menuItem": {
+    "$oid": "67a3105c75288537bb458038"
+  },
+  "quantity": 3,
+  "createdAt": {
+    "$date": "2025-02-07T04:12:51.243Z"
+  }
+}]
